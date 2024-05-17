@@ -1,0 +1,17 @@
+@import "~bootstrap/scss/bootstrap";
+
+html, body, #root
+{
+    height: 100%;
+}
+
+:root
+{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar
+    {
+        display: none;
+    }
+}
